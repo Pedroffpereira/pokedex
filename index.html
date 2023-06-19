@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="search">
+            <div class="search-header">
+                <button>
+                    <svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <path
+                                d="M24,0 C37.254834,0 48,10.745166 48,24 C48,37.254834 37.254834,48 24,48 C10.745166,48 0,37.254834 0,24 C0,10.745166 10.745166,0 24,0 Z M24,4 C12.954305,4 4,12.954305 4,24 C4,35.045695 12.954305,44 24,44 C35.045695,44 44,35.045695 44,24 C44,12.954305 35.045695,4 24,4 Z M27,30 C28.1045695,30 29,30.8954305 29,32 C29,33.1045695 28.1045695,34 27,34 L21,34 C19.8954305,34 19,33.1045695 19,32 C19,30.8954305 19.8954305,30 21,30 L27,30 Z M31,22 C32.1045695,22 33,22.8954305 33,24 C33,25.1045695 32.1045695,26 31,26 L17,26 C15.8954305,26 15,25.1045695 15,24 C15,22.8954305 15.8954305,22 17,22 L31,22 Z M34,14 C35.1045695,14 36,14.8954305 36,16 C36,17.1045695 35.1045695,18 34,18 L14,18 C12.8954305,18 12,17.1045695 12,16 C12,14.8954305 12.8954305,14 14,14 L34,14 Z"
+                                fill="#fff"></path>
+                        </g>
+                    </svg>
+                </button>
+                <h1 class="headerToolbar" id="pokemonHeaderTitle">1346 Pokémon</h1>
+                <button class="transparent" id="resetFilters" title="Reset Filters" style="">Reset</button>
+            </div>
+            <div class="search-body">
+                <input type="text" placeholder="Search Pokémon">
+            </div>
+        </div>
+        <div class="pokemon-list">
+            <div class="item">
+                <div class="item-header">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png" alt=""
+                        class="pokemon-img">
+                </div>
+                <div class="item-body">
+                    <small class="pokemon-id">0001</small>
+                    <span class="pokemon-name">Bulbasaur</span>
+                    <div class="type-list">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pokemon-main">
+
+    </div>
+    <div class="footer"></div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
